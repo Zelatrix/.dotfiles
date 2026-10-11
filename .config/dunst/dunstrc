@@ -1,0 +1,17 @@
+[global]
+font = Sans 20
+foreground = "#ffffff"
+background = "#666666"
+frame_color = "#666666"
+geometry = "250x30-10+10"
+icon_path = "/usr/share/icons/default/index.theme:/usr/share/pixmaps"
+corner_radius = 10
+ 
+[urgency_low]
+timeout = 10
+ 
+[urgency_normal]
+timeout = 20
+ 
+[urgency_critical]
+timeout = 0
