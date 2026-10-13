@@ -132,9 +132,9 @@ exec_always --no-startup-id picom -b --config "$HOME/.config/picom/picom.conf"
 # Start the popup notification service
 exec_always --no-startup-id xfce4-notifyd
 # Start the wallpaper engine
-exec_always --no-startup-id feh --bg-fill "/home/callum/Downloads/Wallpapers/neon-gateway-to-the-retro-digital-realm-backiee-4K.jpg"
-# Enable media keys
-exec_always --no-startup-id xbindkeys
+exec_always --no-startup-id feh --bg-fill "/home/callum/Downloads/Wallpapers/neon-gateway-4K.jpg"
+# Enable media keys (happens on startup)
+exec --no-startup-id xbindkeys
 # Enable bar (will only happen on initial startup)
 exec --no-startup-id polybar
 # ---- End Applications ----
