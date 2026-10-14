@@ -34,7 +34,6 @@ dfs() {
 alias c='clear'
 alias cls='clear'
 alias df=dfs  #'df -h | grep -v '/dev/loop' | grep -v '/var/lib''
-alias vi='vim'
 
 # Git aliases
 alias init='git init'
