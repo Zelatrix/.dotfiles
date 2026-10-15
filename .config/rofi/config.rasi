@@ -1,4 +1,5 @@
-/*Dracula theme based on the Purple official rofi theme*/
+// Dracula theme based on the Purple official rofi theme
+// Modified Dracula Theme for Rofi
 
 configuration {
     show-icons:      true;
@@ -7,7 +8,7 @@ configuration {
 }
 
 * {
-    font: "Jetbrains Mono 12";
+    font: "Iosevka Term Slab Nerd Font Mono 12"; "Noto Color Emoji 12";
     foreground: #f8f8f2;
     background-color: #282a36;
     active-background: #6272a4;
@@ -26,6 +27,8 @@ configuration {
     border-radius:    6;
     border-color:     @bordercolor;
     padding:          15;
+    width:            600px;   // Set the width to 600 pixels
+    position:         center;  // Position the window in the centre
 }
 #mainbox {
     border:  0;
