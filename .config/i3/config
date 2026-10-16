@@ -129,13 +129,13 @@ default_border none
 # Start blueman
 exec --no-startup-id blueman-applet
 # Start the picom compositor
-exec --no-startup-id picom -b --config "$HOME/.config/picom/picom.conf"
+exec_always --no-startup-id picom -b --config "$HOME/.config/picom/picom.conf"
 # Start the popup notification service
-exec --no-startup-id xfce4-notifyd
+exec_always --no-startup-id xfce4-notifyd
 # Start the wallpaper engine
-exec --no-startup-id feh --bg-fill "/home/callum/Downloads/Wallpapers/neon-gateway-4K.jpg"
+exec_always --no-startup-id feh --bg-fill "/home/callum/Downloads/Wallpapers/neon-gateway-4K.jpg"
 # Enable media keys (happens on startup)
-exec --no-startup-id xbindkeys
+exec_always --no-startup-id xbindkeys
 # Enable bar (will only happen on initial startup)
-exec --no-startup-id polybar
+exec_always --no-startup-id polybar
 # ---- End Applications ----
