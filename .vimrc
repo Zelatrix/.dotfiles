@@ -1,5 +1,6 @@
 set number
 set relativenumber 
+syntax on
 
 call plug#begin()
 Plug 'ryanoasis/vim-devicons'				" Add icons for file types
@@ -13,6 +14,7 @@ Plug 'https://github.com/ap/vim-css-color' 		" Show colour of hex code
 
 " Plugins for syntax highlighting
 Plug 'https://github.com/bfrg/vim-cpp-modern' 		" C/C++
+Plug 'https://github.com/rust-lang/rust.vim'		" Rust
 call plug#end()
 
 set encoding=utf-8
