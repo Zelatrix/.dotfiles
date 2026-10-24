@@ -37,7 +37,8 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -137,5 +138,5 @@ exec_always --no-startup-id feh --bg-fill "/home/callum/Downloads/Wallpapers/neo
 # Enable media keys (happens on startup)
 exec_always --no-startup-id xbindkeys
 # Enable bar (will only happen on initial startup)
-exec_always --no-startup-id polybar
+exec --no-startup-id polybar
 # ---- End Applications ----
