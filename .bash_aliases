@@ -33,7 +33,8 @@ dfs() {
 # Programs
 alias c='clear'
 alias cls='clear'
-alias df=dfs  #'df -h | grep -v '/dev/loop' | grep -v '/var/lib''
+alias df=dfs
+alias ff='fastfetch'
 
 # Git aliases
 alias init='git init'
@@ -41,8 +42,6 @@ alias checkout='git checkout origin master'
 alias pull='git pull'
 alias push='git push'
 
-alias neofetch='neofetch --memory_unit gib'
-alias jellyfin='flatpak run com.github.iwalton3.jellyfin-media-player'
 
 # Add an "alert" alias for long running commands.  Use like so:
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
