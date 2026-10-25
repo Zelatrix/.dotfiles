@@ -118,7 +118,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Screenshot utility
-bindsym $mod+Shift+s exec xfce4-screenshooter 
+bindsym $mod+Shift+s exec xfce4-screenshooter --region
 
 # Add a gap of 5 pixels between windows
 gaps inner 5
